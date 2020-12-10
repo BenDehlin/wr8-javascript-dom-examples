@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+  </head>
+  <body id='background' class="default-background">
+    <button
+      id="button-1"
+      class="better-button"
+      onclick="toggleClass('button-1', 'better-button-2')"
+    >
+      Toggle Me
+    </button>
+    <button
+      id="button-2"
+      class="better-button"
+      onclick="toggleClass('button-2', 'better-button-3')"
+    >
+      Toggle Me 2
+    </button>
+    <button 
+      id="button-3" 
+      class="better-button" 
+      onclick='toggleClass("background", "background-1")'>Toggle Other</button>
+      <div>
+          <input
+            id='input-1'
+            class='better-input'
+            onchange=""
+          />
+          <button
+            id='button-4'
+            class='better-button'
+          >Submit</button>
+      </div>
+  </body>
+
+  <script src="./index.js"></script>
+</html>
